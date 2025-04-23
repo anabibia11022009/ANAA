@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Revalia&display=swap');
+
+:root {
+    --cor-principal: #110e0f;
+    --cor-secundaria: #96285b;
+     --cor-destaque: #c01c81;
+}
+    body {
+      font-family: 'Pacifico', cursive;
+      color: var(--cor-principal);
+      background-color: #e4cbcb;
+    }
+    
+    h1, h2, h5,h6{
+      color: var(--cor-secundaria);
+      font-weight: 500;
+    }
+    
+    .lead, .btn-link {
+      color: var(--cor-destaque);
+      font-weight: bold;
+    }
+    
+    a, .btn-link:hover {
+      color: var(--cor-destaque);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: var(--cor-secundaria);
+    }
+    
+    .badge.red {
+      background-color: var(--cor-destaque);
+      color: #e49595;
+      margin-right: 2px;
+    }
+    
+    .card {
+      border: 1px solid var(--cor-principal);
+    }
+    
+    .card-title {
+      font-size: 1.2rem;
+    }
